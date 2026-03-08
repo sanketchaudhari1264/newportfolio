@@ -6,7 +6,7 @@ function Commander() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
 
-  const COMMANDER_PASS = import.meta.env.VITE_CMD_PASS;
+  const COMMANDER_PASS = "7620183105";
 
   useEffect(() => {
     if (loggedIn) {
