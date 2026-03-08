@@ -1,0 +1,39 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0a0f0a;
+  color: #c8e6c8;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+button:focus-visible {
+  outline: 2px solid rgba(100,220,80,0.6);
+  outline-offset: 2px;
+}
+
+img {
+  max-width: 100%;
+}
